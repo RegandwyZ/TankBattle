@@ -353,7 +353,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/BasicAbstractUnit.cs"
-"Assets/Scripts/Unit/MovingBehaviour.cs"
+"Assets/Scripts/Unit/Quad/QuadMovingBehaviour.cs"
+"Assets/Scripts/Unit/Tank/TankMovingBehaviour.cs"
 -langversion:9.0
 
 /deterministic
