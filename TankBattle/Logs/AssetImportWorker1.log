@@ -1,0 +1,663 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'uk' Physical Memory: 16194 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/RegandwyZ/Desktop/TankBattle/TankBattle
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62201
+Successfully changed project path to: C:/Users/RegandwyZ/Desktop/TankBattle/TankBattle
+C:/Users/RegandwyZ/Desktop/TankBattle/TankBattle
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8640] Host "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 149251409 [EditorId] 149251409 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3KLV7JH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8640] Host "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 149251409 [EditorId] 149251409 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3KLV7JH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/RegandwyZ/Desktop/TankBattle/TankBattle/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   NVIDIA
+    VRAM:     2978 MB
+    Driver:   31.0.15.3758
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004960 seconds.
+- Loaded All Assemblies, in  0.226 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.171 seconds
+Domain Reload Profiling: 397ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (66ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (172ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (133ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.388 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.344 seconds
+Domain Reload Profiling: 731ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (344ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3531.
+Memory consumption went from 114.2 MB to 114.1 MB.
+Total: 1.969800 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.067100 ms MarkObjects: 1.695200 ms  DeleteObjects: 0.069500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1119941.867049 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.001755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3532.
+Memory consumption went from 65.3 MB to 65.3 MB.
+Total: 1.810500 ms (FindLiveObjects: 0.134900 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.605400 ms  DeleteObjects: 0.011800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.288 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 775ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (489ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3534.
+Memory consumption went from 113.3 MB to 113.2 MB.
+Total: 1.984200 ms (FindLiveObjects: 0.132300 ms CreateObjectMapping: 0.059800 ms MarkObjects: 1.760900 ms  DeleteObjects: 0.030700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 126.694515 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Cliff_B_yup.prefab
+  artifactKey: Guid(3465947e7993bb8488544bc99c3b92ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Cliff_B_yup.prefab using Guid(3465947e7993bb8488544bc99c3b92ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc703cee78b5ff15e4b5eefbfe09b74') in 0.180963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Rock_Small_D_yup.prefab
+  artifactKey: Guid(097008e2280e27546898460403c44a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Rock_Small_D_yup.prefab using Guid(097008e2280e27546898460403c44a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af833c5011167cc115140accc9154c3') in 0.015142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Barracks_A_yup.prefab
+  artifactKey: Guid(22d7541a3b2b1254987cb364c2575194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Barracks_A_yup.prefab using Guid(22d7541a3b2b1254987cb364c2575194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aace4ae2509a3093de70003b0af322') in 0.085680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Wall_A_Triple_yup.prefab
+  artifactKey: Guid(dcfe80c4d3be195469bca873ab0ab979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Wall_A_Triple_yup.prefab using Guid(dcfe80c4d3be195469bca873ab0ab979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dadcb2672fc2b8cf253f59f098d7f0') in 0.012477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Rock_Large_A_yup.prefab
+  artifactKey: Guid(d9ccfdfd81b96fc4c881646f2c7110a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Rock_Large_A_yup.prefab using Guid(d9ccfdfd81b96fc4c881646f2c7110a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6060b9f6918b2a7e38ffe08d3daa1d') in 0.010649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Radar_Outpost_A_yup.prefab
+  artifactKey: Guid(ecc3fde0c96f4ff4281e850db48c02f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Radar_Outpost_A_yup.prefab using Guid(ecc3fde0c96f4ff4281e850db48c02f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1e33d5c2203479b5250b80a03f7824') in 0.015097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Slab_3x3_A_yup.prefab
+  artifactKey: Guid(ef5dbf8b32ac05742b5bbc69dcd8410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Slab_3x3_A_yup.prefab using Guid(ef5dbf8b32ac05742b5bbc69dcd8410c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17e2648e0f8a3d23267655359a5b16') in 0.012363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Wall_A_Quadruple_yup.prefab
+  artifactKey: Guid(3c1966dabaa8df742bdaeace5f47e217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Wall_A_Quadruple_yup.prefab using Guid(3c1966dabaa8df742bdaeace5f47e217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa927ee96e8fd610768cbb8f550d595') in 0.014166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Silo_A_yup.prefab
+  artifactKey: Guid(790e91a93f6a8194288975cddfb8e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Silo_A_yup.prefab using Guid(790e91a93f6a8194288975cddfb8e63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21950404a859e3bb6e5f0cd8fd0494a0') in 0.012581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/unit_Tank_Combat_A_yup.prefab
+  artifactKey: Guid(07926966f3f7de94ca06e7706c4011b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/unit_Tank_Combat_A_yup.prefab using Guid(07926966f3f7de94ca06e7706c4011b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b74fc8ab5051cf1d5286382dfc4213') in 0.012218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Rock_Small_C_yup.prefab
+  artifactKey: Guid(6bca1262e8453f9438307f09d935de49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Rock_Small_C_yup.prefab using Guid(6bca1262e8453f9438307f09d935de49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9b9bb1f3cd810a6bc0a423ca2c42f9') in 0.011020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Hill_B_yup.prefab
+  artifactKey: Guid(93ef140d98f278d48a38887d7cf680d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Hill_B_yup.prefab using Guid(93ef140d98f278d48a38887d7cf680d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adb9d184a80a2027785d4eac06a8aa5') in 0.010721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/unit_Trike_A_yup.prefab
+  artifactKey: Guid(e0c97a56e6f1e6240a18d1d73886f9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/unit_Trike_A_yup.prefab using Guid(e0c97a56e6f1e6240a18d1d73886f9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb26f7669908eda0f792e1a762f1c2f') in 0.011672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Construction_Yard_A_yup.prefab
+  artifactKey: Guid(67a8f1c7703f1c642b4849a41c944b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Construction_Yard_A_yup.prefab using Guid(67a8f1c7703f1c642b4849a41c944b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aa2455721c69bdc21efa50288afa9c') in 0.013391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Cliff_C_yup.prefab
+  artifactKey: Guid(98fa6c9f7484e124487ea953219028dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Cliff_C_yup.prefab using Guid(98fa6c9f7484e124487ea953219028dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424781fd1ffdbc0da634a1dc49805945') in 0.010609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Misc_Building_B_yup.prefab
+  artifactKey: Guid(2590b323e3740dc46b7c1b542a580d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Misc_Building_B_yup.prefab using Guid(2590b323e3740dc46b7c1b542a580d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bab04720d4f263cdf76663ab334a17') in 0.012125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Wall_Tower_A_yup.prefab
+  artifactKey: Guid(0e961fb918a03284f860237aaf5afb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Wall_Tower_A_yup.prefab using Guid(0e961fb918a03284f860237aaf5afb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6c20f3aa09b5147de22feacc22d0cf') in 0.012538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Rock_Large_B_yup.prefab
+  artifactKey: Guid(37688182cb0174b4580b87971df0640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Rock_Large_B_yup.prefab using Guid(37688182cb0174b4580b87971df0640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a65c1477ea444e19a6c5d39f53f4dc4') in 0.009135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Spaceport_A_yup.prefab
+  artifactKey: Guid(d0d3fa714339c06469755b863d5b2267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Spaceport_A_yup.prefab using Guid(d0d3fa714339c06469755b863d5b2267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb6316b6b56f4326af44fea319fc49e') in 0.012234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/unit_Harvester_A_yup.prefab
+  artifactKey: Guid(76ab47e270e04e948a1df5cf948b0a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/unit_Harvester_A_yup.prefab using Guid(76ab47e270e04e948a1df5cf948b0a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42244dec0a0a18597146259afce5aeaa') in 0.013195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Misc_Building_A_yup.prefab
+  artifactKey: Guid(d634e5cf0fda7f347a1f6512fec12842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Misc_Building_A_yup.prefab using Guid(d634e5cf0fda7f347a1f6512fec12842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02c6748c3a81ea3ae88f16f9203ec5c') in 0.011288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Cliff_Base_B_yup.prefab
+  artifactKey: Guid(b701613c47a23f94fa7ca6e50d0ac5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Cliff_Base_B_yup.prefab using Guid(b701613c47a23f94fa7ca6e50d0ac5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8e3edab70fe8740375c7f25bceef3a') in 0.010137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Cliff_Base_C_yup.prefab
+  artifactKey: Guid(b983ef0c7163ade4f8cc7f9c57fafd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/env_Desert_Cliff_Base_C_yup.prefab using Guid(b983ef0c7163ade4f8cc7f9c57fafd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6c6a601a54e6f0d5f8dcf619e4bc00') in 0.011649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Windtrap_A_yup.prefab
+  artifactKey: Guid(b951ab7c43720fc44b4a5d8c0c133e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/prefabs_yup/struct_Windtrap_A_yup.prefab using Guid(b951ab7c43720fc44b4a5d8c0c133e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6508cbf60902845de33196083d5c5373') in 0.011551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 9.701582 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/materials/mtrl_canopus-iii_set01-green.mat
+  artifactKey: Guid(466c52d1edcd56d4b95e88152cfc7345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/materials/mtrl_canopus-iii_set01-green.mat using Guid(466c52d1edcd56d4b95e88152cfc7345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6bc43fa6b1d3f42bd63ae36f57b2ea') in 0.030063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.583566 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/env_Desert_Cliff_Base_A_yup.fbx
+  artifactKey: Guid(35e9a7ec1ec85044b90170f6b5cf578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/env_Desert_Cliff_Base_A_yup.fbx using Guid(35e9a7ec1ec85044b90170f6b5cf578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef415c9b1cadb8477ca1629c47f3f51b') in 0.248040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/env_Desert_Hill_D_yup.fbx
+  artifactKey: Guid(747551a49c5ae394693a1497648433c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/env_Desert_Hill_D_yup.fbx using Guid(747551a49c5ae394693a1497648433c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c7a243440a581ab2b7b46690b4b8ec') in 0.015613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Windtrap_A_yup.fbx
+  artifactKey: Guid(a37bb37a83dd4f2479827803fe11a8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Windtrap_A_yup.fbx using Guid(a37bb37a83dd4f2479827803fe11a8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118eede939835e9292535bd92ff61346') in 0.026760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Refinery_A_yup.fbx
+  artifactKey: Guid(c69abfdf8a6fc6940b407a150210570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Refinery_A_yup.fbx using Guid(c69abfdf8a6fc6940b407a150210570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a63b0c14a6ed3542e4dad1c248ca16') in 0.017411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Turret_Gun_A_yup.fbx
+  artifactKey: Guid(0d8fc5ce766774542a95bdc7e3862526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Turret_Gun_A_yup.fbx using Guid(0d8fc5ce766774542a95bdc7e3862526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d72e26a6a120c1d99247ada5a49e65') in 0.032865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/unit_Harvester_A_yup.fbx
+  artifactKey: Guid(e5f792c0ae4f20648a824d0d20599d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/unit_Harvester_A_yup.fbx using Guid(e5f792c0ae4f20648a824d0d20599d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330634a6ee6628bfda85378b92325b9f') in 0.128521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Wall_A_yup.fbx
+  artifactKey: Guid(04e5453006a300b47b56d0b35f803b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Wall_A_yup.fbx using Guid(04e5453006a300b47b56d0b35f803b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1959780f93677c37828ab726d3351d02') in 0.011896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Wall_A_Quadruple_yup.fbx
+  artifactKey: Guid(a8f5e3d937c4c254c9df520c45939f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Wall_A_Quadruple_yup.fbx using Guid(a8f5e3d937c4c254c9df520c45939f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7041c131e1f23a6d4d29da62efb493') in 0.011598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Wall_Tower_A_yup.fbx
+  artifactKey: Guid(692991282bbe78543bb212f7cd1ca15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Wall_Tower_A_yup.fbx using Guid(692991282bbe78543bb212f7cd1ca15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c584c84375e6fe04f37e8e95ea3dcc5') in 0.014178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/unit_Tank_Combat_A_yup.fbx
+  artifactKey: Guid(2158e2e6215d0fb4f91cf912df6d0a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/unit_Tank_Combat_A_yup.fbx using Guid(2158e2e6215d0fb4f91cf912df6d0a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c774a7b3b7e54dc4dae185f5b867e95') in 0.019811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Slab_3x3_A_yup.fbx
+  artifactKey: Guid(10bee5655db933c4687307670b3e2ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Slab_3x3_A_yup.fbx using Guid(10bee5655db933c4687307670b3e2ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1cbae2b25043ffa696011d6cae7c59') in 0.011742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Wall_Tower_B_yup.fbx
+  artifactKey: Guid(560d5b8390f8a064fa477198e4bd8135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Wall_Tower_B_yup.fbx using Guid(560d5b8390f8a064fa477198e4bd8135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55023ab8b958a7e5b8f9bec303b4a858') in 0.013161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Misc_Building_B_yup.fbx
+  artifactKey: Guid(f4d97cbf8afbe3243b8e699d23366926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Misc_Building_B_yup.fbx using Guid(f4d97cbf8afbe3243b8e699d23366926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afd4f8c30e9c6d5485bf907904901ea') in 0.015493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Barracks_A_yup.fbx
+  artifactKey: Guid(0a4c89296e04a2e42b0fdd76e25e536e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Barracks_A_yup.fbx using Guid(0a4c89296e04a2e42b0fdd76e25e536e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1480e08fae93585a1f9066ef6175f3a4') in 0.014683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Spaceport_A_yup.fbx
+  artifactKey: Guid(1b499af0e0a9b1d49b67689f6177e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/struct_Spaceport_A_yup.fbx using Guid(1b499af0e0a9b1d49b67689f6177e80f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95496afbc3635768058570bc7c52852a') in 0.014212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/env_Desert_Hill_C_yup.fbx
+  artifactKey: Guid(41dba6b882ba0f448980e3d261b8c8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_1/models_yup/env_Desert_Hill_C_yup.fbx using Guid(41dba6b882ba0f448980e3d261b8c8ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94039aaa1273356e5f6706b2b9e1f5c') in 0.013634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 32.133452 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/mtrl_canopus-iii_set01-red.mat
+  artifactKey: Guid(03993c9801677ca4b9741101b3033488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/materials/mtrl_canopus-iii_set01-red.mat using Guid(03993c9801677ca4b9741101b3033488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea736a3f34c5302279c74c9fd7ee017') in 0.020312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.938337 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models_yup/struct_Research_Lab_A_yup.fbx
+  artifactKey: Guid(582f4f8fa24df2a43a5548965d28b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models_yup/struct_Research_Lab_A_yup.fbx using Guid(582f4f8fa24df2a43a5548965d28b9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc351a181236a966a4b7aa1010c410b') in 0.014529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models_yup/unit_Ornithopter_Light_A_yup.fbx
+  artifactKey: Guid(614c0cf8c7367e94c9ddf8ade18e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models_yup/unit_Ornithopter_Light_A_yup.fbx using Guid(614c0cf8c7367e94c9ddf8ade18e75a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df67cafd7d55eb7dc71b667e7bf4b3c') in 0.034025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models_yup/unit_Quad_B_yup.fbx
+  artifactKey: Guid(360f70dd5363d99488ee63b45799a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/models_yup/unit_Quad_B_yup.fbx using Guid(360f70dd5363d99488ee63b45799a9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f725a0aedbe8f7ad53cd7e4adffdf2e') in 0.030692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 1.544582 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs_yup/struct_Research_Lab_A_yup.prefab
+  artifactKey: Guid(afa9acf52d24d574db80f2c36fcc80bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs_yup/struct_Research_Lab_A_yup.prefab using Guid(afa9acf52d24d574db80f2c36fcc80bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6432a2ae8f4524b1adc1afdf0ab0dc24') in 0.015113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs_yup/unit_Quad_B_yup.prefab
+  artifactKey: Guid(2bc18102f88700340a2e009095cb292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs_yup/unit_Quad_B_yup.prefab using Guid(2bc18102f88700340a2e009095cb292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900bf7e3cd3e1ef654c6a3c53ee7fb04') in 0.017670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs_yup/unit_Tank_Heavy_A_yup.prefab
+  artifactKey: Guid(066e771bcb048a643b4ef5d4554f90e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Canopus-III_Low-Poly_Sci-Fi_Desert_Units_Set_2/prefabs_yup/unit_Tank_Heavy_A_yup.prefab using Guid(066e771bcb048a643b4ef5d4554f90e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d7b9ec7e04cc10cb544a1727f51fc0') in 0.014302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
