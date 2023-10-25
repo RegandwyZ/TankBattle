@@ -7,11 +7,6 @@ public abstract class BasicAbstractUnit : MonoBehaviour
     
     public Rigidbody _objectRb;
     
-    private void Start()
-    {
-       
-    }
-
     protected void Move()
     {
         Vector3 moveDirection = transform.forward * (_speed * Time.deltaTime);

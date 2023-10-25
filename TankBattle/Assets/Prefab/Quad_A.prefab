@@ -97,9 +97,10 @@ GameObject:
   - component: {fileID: 7537555476842746110}
   - component: {fileID: 3682922132035313564}
   - component: {fileID: 4371382085514878355}
-  m_Layer: 0
+  - component: {fileID: 1379251582781472371}
+  m_Layer: 6
   m_Name: Quad_A
-  m_TagString: Untagged
+  m_TagString: Vehicle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -229,11 +230,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 3697136554101965516}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddff44fa67b14e04d9209c52a5ade20b, type: 3}
+  m_Script: {fileID: 11500000, guid: 91af3e49761c9084bbec79d6e2666d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
   _objectRb: {fileID: 0}
+  _rotationDuration: 2.5
+--- !u!114 &1379251582781472371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3697136554101965516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43097e7782357ed408c91a5415259033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealthPoint: 200
+  _explosion: {fileID: 1509701273485824468, guid: a2112e1bf54adad469b74f1bf5d04b98, type: 3}
 --- !u!1 &3808708150353009590
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,6 +427,7 @@ GameObject:
   - component: {fileID: 4274024956799925550}
   - component: {fileID: 2734855574510409981}
   - component: {fileID: 6860210036983557652}
+  - component: {fileID: 2330909224945891746}
   m_Layer: 0
   m_Name: unit_Quad_A_Gun_Turret_yup
   m_TagString: Untagged
@@ -484,3 +501,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2330909224945891746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6952439923393768237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6f093429ea2094d9db2b8b1fb0caaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _radius: 45
+  _rotateTowerSpeed: 3
+  _tower: {fileID: 6952439923393768237}
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 128

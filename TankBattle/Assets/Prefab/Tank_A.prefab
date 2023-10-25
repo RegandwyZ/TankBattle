@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6714930255696399224}
   - component: {fileID: 7665904490125017650}
   - component: {fileID: 135228474036286635}
+  - component: {fileID: 3097260378383222842}
+  - component: {fileID: 6839092775314885854}
   m_Layer: 0
   m_Name: unit_Tank_Combat_A_Turret_yup
   m_TagString: Untagged
@@ -32,6 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6014188314694153266}
+  - {fileID: 8514565486920821701}
   m_Father: {fileID: 6328245779563230221}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7665904490125017650
@@ -84,6 +87,70 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3097260378383222842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243041956859230788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6f093429ea2094d9db2b8b1fb0caaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _radius: 45
+  _rotateTowerSpeed: 1.5
+  _tower: {fileID: 1243041956859230788}
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 320
+--- !u!114 &6839092775314885854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243041956859230788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543d7c009881e6b4c81ce259bedc1753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ammo: {fileID: 7325994303501136203, guid: 91517a1622848df48bcb58929a615e2d, type: 3}
+  _firePoint: {fileID: 8514565486920821701}
+  _cooldownDuration: 2
+--- !u!1 &2010721641225505250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8514565486920821701}
+  m_Layer: 7
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8514565486920821701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010721641225505250}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.6141554, z: 3.2442102}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6714930255696399224}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6672543193626275511
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,9 +165,10 @@ GameObject:
   - component: {fileID: 1865138951461899781}
   - component: {fileID: 2295335514444314949}
   - component: {fileID: 8095823374237629711}
-  m_Layer: 0
+  - component: {fileID: 1107598192586667033}
+  m_Layer: 7
   m_Name: Tank_A
-  m_TagString: Untagged
+  m_TagString: Vehicle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -232,7 +300,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5
-  _rotateTank: 1.06
+  _objectRb: {fileID: 0}
+  _rotationDuration: 3.5
+--- !u!114 &1107598192586667033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6672543193626275511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43097e7782357ed408c91a5415259033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealthPoint: 500
+  _explosion: {fileID: 1509701273485824468, guid: a2112e1bf54adad469b74f1bf5d04b98, type: 3}
 --- !u!1 &7983128493678465121
 GameObject:
   m_ObjectHideFlags: 0
