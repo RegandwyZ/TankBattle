@@ -233,7 +233,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3697136554101965516}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 10000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -566,4 +566,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ammo: {fileID: 2238332322884288464, guid: d7d81d90b8d38b9469125c409cfeccb5, type: 3}
   _firePoint: {fileID: 3625545696521799288}
-  _cooldownDuration: 0.5
+  _cooldownDuration: 0.3

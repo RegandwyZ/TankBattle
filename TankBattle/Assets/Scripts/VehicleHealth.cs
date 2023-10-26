@@ -9,18 +9,16 @@ public class VehicleHealth : MonoBehaviour
     [SerializeField] private GameObject _explosion;
     
     private GameObject _explosionToDelete;
-
     private float _delayToDestroy = 2f;
-    
+
     public void TakeDamage(int damage)
     {
-        _explosionToDelete = Instantiate(_explosion, transform.position, Quaternion.identity);
         _maxHealthPoint -= damage;
-        if(_maxHealthPoint <= 0)
+        if (_maxHealthPoint <= 0)
+        {
+            _explosionToDelete = Instantiate(_explosion, transform.position, Quaternion.identity);
             Destroy(gameObject);
-        
-        Destroy(_explosionToDelete, _delayToDestroy);
+            Destroy(_explosionToDelete, _delayToDestroy);
+        }
     }
-
-    
 }

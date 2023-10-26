@@ -8,12 +8,12 @@ public class AmmoFire : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private int _damage;
 
-    private float _ammoLife = 2; 
-    private float _ammo;
-    
     private VehicleHealth _vehicleHealth;
     private Transform _startPosAmmo;
     private Rigidbody _ammoRb;
+    
+    private float _ammoLife = 2; 
+    private float _ammo;
 
     private void Start()
     {
@@ -44,7 +44,9 @@ public class AmmoFire : MonoBehaviour
         if (collision.gameObject.CompareTag("Vehicle"))
         {
             collision.gameObject.GetComponent<VehicleHealth>().TakeDamage(_damage);
+            
             Destroy(gameObject);
+            
         }
     }
 }
