@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6714930255696399224}
   - component: {fileID: 7665904490125017650}
   - component: {fileID: 135228474036286635}
-  - component: {fileID: 3097260378383222842}
   - component: {fileID: 6839092775314885854}
+  - component: {fileID: 3121655889988937561}
   m_Layer: 0
   m_Name: unit_Tank_Combat_A_Turret_yup
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1243041956859230788}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.009826913, z: -0, w: 0.9999518}
   m_LocalPosition: {x: -0, y: 1.5458447, z: -0.2942096}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -36,7 +36,7 @@ Transform:
   - {fileID: 6014188314694153266}
   - {fileID: 8514565486920821701}
   m_Father: {fileID: 6328245779563230221}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 1.126, z: 0}
 --- !u!33 &7665904490125017650
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -87,24 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3097260378383222842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1243041956859230788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce6f093429ea2094d9db2b8b1fb0caaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _radius: 45
-  _rotateTowerSpeed: 1.5
-  _tower: {fileID: 1243041956859230788}
-  _layerMask:
-    serializedVersion: 2
-    m_Bits: 320
 --- !u!114 &6839092775314885854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,6 +102,24 @@ MonoBehaviour:
   _ammo: {fileID: 7325994303501136203, guid: 91517a1622848df48bcb58929a615e2d, type: 3}
   _firePoint: {fileID: 8514565486920821701}
   _cooldownDuration: 2
+--- !u!114 &3121655889988937561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243041956859230788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ab55b22012e6d34a92b6dd881ee3185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _radius: 45
+  _rotateTowerSpeed: 1.5
+  _tower: {fileID: 1243041956859230788}
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 320
 --- !u!1 &2010721641225505250
 GameObject:
   m_ObjectHideFlags: 0

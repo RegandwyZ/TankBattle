@@ -83,6 +83,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2021949555938610352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3625545696521799288}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3625545696521799288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021949555938610352}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4274024956799925550}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3697136554101965516
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,6 +459,7 @@ GameObject:
   - component: {fileID: 2734855574510409981}
   - component: {fileID: 6860210036983557652}
   - component: {fileID: 2330909224945891746}
+  - component: {fileID: 8903328036757187145}
   m_Layer: 0
   m_Name: unit_Quad_A_Gun_Turret_yup
   m_TagString: Untagged
@@ -443,14 +475,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6952439923393768237}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000015519344, y: 0.21566299, z: -0.0000000034276044, w: 0.97646785}
+  m_LocalRotation: {x: -0, y: 0.0004000403, z: -0, w: 0.99999994}
   m_LocalPosition: {x: -0.0000012207031, y: 1.9043896, z: -0.8789125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6280742484417519928}
+  - {fileID: 3625545696521799288}
   m_Father: {fileID: 4036648820349360246}
-  m_LocalEulerAnglesHint: {x: 0, y: 24.909, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.046, z: 0}
 --- !u!33 &2734855574510409981
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -510,12 +543,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 6952439923393768237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce6f093429ea2094d9db2b8b1fb0caaa, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ab55b22012e6d34a92b6dd881ee3185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _radius: 45
-  _rotateTowerSpeed: 3
+  _rotateTowerSpeed: 1.5
   _tower: {fileID: 6952439923393768237}
   _layerMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 384
+--- !u!114 &8903328036757187145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6952439923393768237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543d7c009881e6b4c81ce259bedc1753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ammo: {fileID: 2238332322884288464, guid: d7d81d90b8d38b9469125c409cfeccb5, type: 3}
+  _firePoint: {fileID: 3625545696521799288}
+  _cooldownDuration: 0.5

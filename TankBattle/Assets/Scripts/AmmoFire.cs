@@ -33,14 +33,10 @@ public class AmmoFire : MonoBehaviour
 
     private void Fire()
     {
-       
-        
         _startPosAmmo = transform;
         _ammoRb = GetComponent<Rigidbody>();
         var localForce = transform.InverseTransformDirection(_startPosAmmo.forward);
         _ammoRb.AddRelativeForce(localForce * _speed, ForceMode.VelocityChange);
-
-       
     }
 
     private void OnCollisionEnter(Collision collision)
