@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Vehicle
   - FxTemporaire
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - Tank
   - Trike
   - Ammo
-  - 
+  - Wall
   - 
   - 
   - 

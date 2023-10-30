@@ -547,7 +547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _radius: 45
-  _rotateTowerSpeed: 1.5
+  _rotateTowerSpeed: 7
   _tower: {fileID: 6952439923393768237}
   _layerMask:
     serializedVersion: 2
@@ -567,3 +567,4 @@ MonoBehaviour:
   _ammo: {fileID: 2238332322884288464, guid: d7d81d90b8d38b9469125c409cfeccb5, type: 3}
   _firePoint: {fileID: 3625545696521799288}
   _cooldownDuration: 0.3
+  _towerRotate: {fileID: 2330909224945891746}

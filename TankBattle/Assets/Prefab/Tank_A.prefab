@@ -101,7 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ammo: {fileID: 7325994303501136203, guid: 91517a1622848df48bcb58929a615e2d, type: 3}
   _firePoint: {fileID: 8514565486920821701}
-  _cooldownDuration: 2
+  _cooldownDuration: 3
+  _towerRotate: {fileID: 3121655889988937561}
 --- !u!114 &3121655889988937561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,8 +115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ab55b22012e6d34a92b6dd881ee3185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _radius: 45
-  _rotateTowerSpeed: 1.5
+  _radius: 55
+  _rotateTowerSpeed: 5
   _tower: {fileID: 1243041956859230788}
   _layerMask:
     serializedVersion: 2

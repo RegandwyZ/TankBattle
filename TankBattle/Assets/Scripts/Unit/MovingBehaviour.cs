@@ -1,10 +1,15 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class MovingBehaviour : BasicAbstractUnit
 {
-    [SerializeField] private  float _rotationDuration = 5.0f; 
+    [SerializeField] private  float _rotationDuration = 5.0f;
     
+    private float _newRotation;
+    private bool _isMove = true;
+
     private void Start()
     {
         _objectRb = GetComponent<Rigidbody>();
@@ -13,7 +18,21 @@ public class MovingBehaviour : BasicAbstractUnit
 
     private void Update()
     {
-        Move();
+        if (_isMove)
+        {
+            Move();
+        }
+
+        if (!_isMove)
+        {
+            MoveBack();
+            _newRotation = 0f;
+        }
+
+        if (_objectRb.transform.position.y <= -10f)
+        {
+            Destroy(gameObject);
+        }
     }
     
     private  IEnumerator RotatePeriodically()
@@ -29,9 +48,9 @@ public class MovingBehaviour : BasicAbstractUnit
             while (elapsedTime < _rotationDuration)
             {
                 float t = elapsedTime / _rotationDuration;
-                float newRotation = Mathf.Lerp(startRotation, targetRotation, t);
+                _newRotation = Mathf.Lerp(startRotation, targetRotation, t);
 
-                Quaternion rotation = Quaternion.Euler(0, newRotation, 0);
+                Quaternion rotation = Quaternion.Euler(0, _newRotation, 0);
                 _objectRb.MoveRotation(rotation);
 
                 elapsedTime += Time.deltaTime;
@@ -40,5 +59,24 @@ public class MovingBehaviour : BasicAbstractUnit
             
             yield return new WaitForSeconds(5.0f);
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.CompareTag("Wall"))
+        {
+            _isMove = false;
+            
+            float startTime = 0;
+            const float endTime = 3f;
+            
+            startTime += Time.deltaTime;
+            if (startTime >= endTime)
+            {
+                _isMove = true;
+            }
+            
+        }
+        
     }
 }
