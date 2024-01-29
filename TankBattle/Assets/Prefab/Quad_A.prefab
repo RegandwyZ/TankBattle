@@ -129,6 +129,9 @@ GameObject:
   - component: {fileID: 3682922132035313564}
   - component: {fileID: 4371382085514878355}
   - component: {fileID: 1379251582781472371}
+  - component: {fileID: -8386208623587186909}
+  - component: {fileID: 8494273053910021795}
+  - component: {fileID: -6928593441562750526}
   m_Layer: 6
   m_Name: Quad_A
   m_TagString: Vehicle
@@ -259,7 +262,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3697136554101965516}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91af3e49761c9084bbec79d6e2666d86, type: 3}
   m_Name: 
@@ -281,6 +284,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHealthPoint: 200
   _explosion: {fileID: 1509701273485824468, guid: a2112e1bf54adad469b74f1bf5d04b98, type: 3}
+--- !u!114 &-8386208623587186909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3697136554101965516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c586b9bd08b3f4840ba13aa5e8e8a841, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _radiusPoint: 200
+  _enemyPoint: {fileID: 7726723151733344170, guid: 79a126a65566b5c4aaaa3eb7a2969d74, type: 3}
+--- !u!195 &8494273053910021795
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3697136554101965516}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.9700645
+  m_Speed: 8
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 3.3383977
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!95 &-6928593441562750526
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3697136554101965516}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3808708150353009590
 GameObject:
   m_ObjectHideFlags: 0
